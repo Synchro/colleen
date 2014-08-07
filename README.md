@@ -66,13 +66,13 @@ Many have helped us. We will name them in time.
 
    	$ foreman start
 
-1. Visit app in browser at http://localhost:5000/chart.html
+1. Visit app in browser at http://localhost:5000/wnu/chart.html
 
 1. For animation dev, run this in a separate console window to auto compile changes to the JSON and SVG files
 
         $ supervisor -n exit -w client/data/src -e json,svg client/util/compile_assets.js
 
-1. Visit app in browser at http://localhost:5000/index.html
+1. Visit app in browser at http://localhost:5000/wnu/index.html
 
 ###production on heroku
 1. Create an account at heroku.com
